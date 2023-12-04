@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0, 0, 33);
+    color: white;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background: rgb(13, 13, 86);
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+nav .navleft {
+    font-size: 1.5rem; 
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(67, 11, 120);
+    font-size: 1.05rem;
+}
+main>hr{
+    width: 90%;
+    margin: 30px 70px;
+    background-color: rgb(91, 56, 125);
+    border: 0cap;
+    height: 2px;
+}
+h1{
+     color:rgb(141, 69, 209);
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first>div{
+    width: 30%;
+    margin: 80px 0px;
+}
+.rightsection img{
+    width: 100%;
+    margin-left: -70px;
+}
+.leftsection div{
+ font-size: 2.7rem;
+}
+.leftsection div> span{
+ color: rgb(170, 107, 228);
+}
+.leftsection>span{
+ font-size: 2.7rem;
+ color: rgb(170, 107, 228);     
+}
+.leftsection .btn{
+    font-size: 18px;
+     border: 2px solid white;
+    color: rgb(255, 255, 255);
+    background-color: #561593;
+    height: 38px;
+    border-radius: 5px;
+    padding: 6px; 
+    cursor: pointer; ;   
+}
+.leftsection .btn:hover{
+    background-color: #4b0294;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;   
+}
+.second>div{
+    height: 640px;
+    display: flex;
+    align-items: center;
+   margin-left: 100px;
+}
+.second>div>hr{
+    margin-left: 15px;
+    width:100px;
+}
+.second>div>.div1{
+    display: flex;
+    height: 450px;
+    width: 100px;
+    border: 2px;
+    border-right: 0px;
+    border-style: solid;
+    align-items: center;
+}
+.second>div>.div1>hr{
+    width: 100px;  
+}
+.second>div>.div2{
+    height: 600px;
+    width: 400px;  
+    
+}
+.second>div>.div2>.in1{
+    margin: 60px 0px 0px 10px;
+}
+.second>div>.div2>.in2{
+    margin: 99px 0px 0px 10px;
+}
+.second>div>.div2>.in3{
+    margin: 98px 0px 0px 10px;
+}
+.second>div>.div2>.in1 h3{
+    display: inline-block;
+    margin-right: 230px;
+}
+.second>div>.div2 .h4{
+    display: inline-block;
+}
+.second>div>.div2 .span1 {
+    margin-left:220px ;
+
+}
+.second>div>.div2>.in2 h3{
+    display: inline-block;
+    margin-right: 160px;
+}
+.second>div>.div2 .h4{
+    display: inline-block;
+}
+.second>div>.div2 >.in2 .span1 {
+    margin-left:110px ;
+
+}
+.second>div>.div2>.in3 h3{
+    display: inline-block;
+    margin-right: 185px;
+}
+.second>div>.div2 >.in3 .span1 {
+    margin-left:245px ;
+}
+.third{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 570PX;
+}
+.third>div{
+    margin:30px 0px ;
+    width: 40%;
+    height: 300px;
+
+}
+
+.third>div>.in2{
+    display: inline-block;
+    margin:20px 0px 0px 100px;
+}
+.third>div>.in2{
+    display: inline-block;
+    margin:20px 0px 0px 100px;
+
+}
+.third>div>.in2 span{
+    margin-left: 0px;
+    font-size: 20px;
+    width: 100px;
+    
+}
+.third h3{
+    text-decoration: underline;
+}
+.third .vr{
+    height: 95%;
+    width: 2px;
+    border: 2px solid;
+}
+.forth{
+    max-width: 80vw;
+    margin: auto;
+    height: 570PX;
+}
+.forth .div1{
+    max-width: 70vw;
+    margin: 50px 100px ;
+}
+
+.forth .in1{
+
+    margin: 30px 0px 0px 150px;
+
+}
+.forth .li2{
+
+    margin: 50px 0px 0px 0px;
+
+}
+.forth .in2{
+    margin: 30px 0px 0px 150px;
+}
+footer{
+    /* height: 250px; */
+    background-color:  rgb(24, 2, 48);
+
+}
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-around;
+    
+}
+.footer>div{
+    width: 220px;
+
+}
+.footer-second {
+    margin-left: 350px;
+}
+.footer-second ul{
+    list-style: none;
+    
+}
+.footer-second ul>li>a:hover{
+    color: rgb(169, 117, 219);
+    
+}
+.footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
