@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(54, 187, 236) ;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    height: 300px ;
+    width: 500px;
+    margin-top:200px ;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+}
+#num{
+     
+    height: 30px;
+    
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#unit{
+    height: 36px;
+    font-size: 18px;
+    padding: 4px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+button{
+    margin: 25px;
+    font-size: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+#res{
+    font-size: 18px;
+}
