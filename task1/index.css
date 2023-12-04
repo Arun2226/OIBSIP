@@ -1,0 +1,483 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height:720px;
+    background-image: url(./images/p1.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.02);
+    height: 80px;
+    width: 100%;
+   
+}
+nav section{
+    margin: auto;
+    height: 100%;
+    width: 90%;
+}
+nav img {
+    height: 80px;
+    width: 100px;
+}
+nav ul{
+    margin-left: 20px;
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+nav a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+main{
+    background-color: black;
+    height: 4200px;
+    width: 100%;
+    
+
+}
+.a{
+    height: 700px;
+    width: 100%;
+    border: 2px solid;
+    box-shadow: 5px 5px 5px 0px white;
+}
+.a1{
+    margin-top :20px; 
+}
+.ironman{
+    background-image: url(./images/iron2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.cap{
+    background-image: url(./images/cap2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thor{
+    background-image: url(./images/thor1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hulk{
+    background-image: url(./images/hulk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nat{
+    background-image: url(./images//blackwido2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.haw{
+    background-image: url(./images/hawkai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ironman */
+.in1{
+    
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 800px;
+    top: 250px;
+    color: rgb(143, 39, 39);
+    animation: roll 5s ease-out ;
+    /* animation-iteration-count: infinite; */
+    overflow: hidden;
+    
+}
+@keyframes roll {
+    from{
+        opacity: 0;
+        width: 0px;
+    
+
+    }
+    to{
+        opacity: 1;
+        width: 350px;
+      
+    }
+    
+}
+.ironman:hover{
+    background-image: url(./images/iron-man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+     cursor: pointer;   
+     
+     
+}
+.i1{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+}
+.i1:hover{
+    opacity: 1;
+    transition: all 2s;
+    
+    
+}
+
+.in1 h1{
+    font-size: 65px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+    ;
+    
+}
+.in1 p{
+    font-size: 25px;
+    color: azure;
+    
+}
+
+/* cap */
+
+.in2{
+    
+    height: 250px;
+    width: 500px;
+    position: relative;
+    left: 200px;
+    top: 250px;
+    color: rgb(143, 39, 39);
+    animation: rollC 2s ease-out ;
+    /* animation-iteration-count: infinite; */
+    overflow: hidden;
+    
+}
+@keyframes rollC {
+    from{
+        opacity: 0;
+        width: 0px;
+    }
+    to{
+        opacity: 1;
+        width: 500px;
+    }
+    
+}
+.cap:hover{
+    background-image: url(./images/cap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+     cursor: pointer;   
+     
+     
+}
+.i2{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+}
+.i2:hover{
+    opacity: 1;
+    transition: all 2s;
+    
+    
+}
+
+.in2 h1{
+    font-size: 65px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(33, 33, 101);
+    
+}
+.in2 p{
+    font-size: 25px;
+    color: azure;
+    
+}
+
+
+/* thor */
+
+.in3{
+    
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 200px;
+    top: 250px;
+    color: rgb(143, 39, 39);
+    animation: rollT 5s ease-out ;
+    /* animation-iteration-count: infinite; */
+    overflow: hidden;
+    
+}
+@keyframes rollT {
+    from{
+        opacity: 0;
+        width: 0px;
+    
+
+    }
+    to{
+        opacity: 1;
+        width: 350px;
+      
+    }
+    
+}
+.thor:hover{
+    background-image: url(./images/thor2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+     cursor: pointer;   
+     
+     
+}
+.i3{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.i3:hover{
+    opacity: 1;
+    transition: all 2s;  
+}
+
+.in3 h1{
+    font-size: 65px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 97, 244);
+}
+
+.in3 p{
+    font-size: 25px;
+    color: azure;  
+}
+
+
+/* Hulk */
+
+.in4{
+    
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 200px;
+    top: 150px;
+    color: rgb(13, 120, 35);
+    animation: rollH 5s ease-out ;
+    /* animation-iteration-count: ; */
+    overflow: hidden;
+    
+}
+@keyframes rollH {
+    from{
+        opacity: 0;
+        width: 0px;
+    
+
+    }
+    to{
+        opacity: 1;
+        width: 350px;
+      
+    }
+    
+}
+.hulk:hover{
+    background-image: url(./images/hulk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+     cursor: pointer;   
+     
+     
+}
+.i4{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+}
+.i4:hover{
+    opacity: 1;
+    transition: all 2s;
+    
+    
+}
+
+.in4 h1{
+    font-size: 65px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.in4 p{
+    font-size: 25px;
+    color: azure;
+    
+}
+
+
+/* nat */
+
+.in5{
+    
+    height: 250px;
+    width: 400px;
+    position: relative;
+    left: 800px;
+    top: 250px;
+    color: rgb(250, 3, 3);
+    animation: rollN 5s ease-out ;
+    /* animation-iteration-count: infinite; */
+    overflow: hidden;
+    
+}
+@keyframes rollN {
+    from{
+        opacity: 0;
+        width: 0px;
+    
+
+    }
+    to{
+        opacity: 1;
+        width: 400px;
+      
+    }
+    
+}
+.nat:hover{
+    background-image: url(./images/blackwido.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+     cursor: pointer;   
+     
+     
+}
+.i5{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+}
+.i5:hover{
+    opacity: 1;
+    transition: all 2s;
+    
+    
+}
+
+.in5 h1{
+    font-size: 65px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+    ;
+    
+}
+.in5 p{
+    font-size: 25px;
+    color: azure;
+    
+}
+
+
+/* haw */
+
+.in6{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    left: 200px;
+    top: 250px;
+    color: rgb(88, 88, 88);
+    animation: rollha 5s ease-out ;
+    /* animation-iteration-count: infinite; */
+    overflow: hidden;
+    
+}
+@keyframes rollha {
+    from{
+        opacity: 0;
+        width: 0px;
+    
+
+    }
+    to{
+        opacity: 1;
+        width: 350px;
+      
+    }
+    
+}
+.haw:hover{
+    background-image: url(./images/hawkai1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+     cursor: pointer;   
+     
+     
+}
+.i6{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+}
+.i6:hover{
+    opacity: 1;
+    transition: all 2s;
+    
+    
+}
+
+.in6 h1{
+    font-size: 65px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.in6 p{
+    font-size: 25px;
+    color: azure;
+    
+}
+
+footer {
+    margin-top: 120px;
+    position: relative;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    font-size:22px;
+    padding: 10px;
+  }
